@@ -9,7 +9,6 @@ $res = mysqli_query($con,$sql);
 if ($res) {
       unset($_POST);
       echo "New record created successfully";
-      header("Location:http://localhost/contactform");
 }
 }
 ?>
